@@ -81,27 +81,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.jvnet.jaxb2.maven2</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
-				<version>0.14.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<schemaLanguage>WSDL</schemaLanguage>
-					<generatePackage>de.bewotec.service</generatePackage>
-					<schemas>
-						<schema>
-							<url>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl</url>
-						</schema>
-					</schemas>
-				</configuration>
-			</plugin>
 			<!-- Axis2 plugin used to generate stubs from wsdl files -->
 			<plugin>
 				<groupId>org.apache.axis2</groupId>
@@ -118,8 +97,9 @@
 							<wsdlFile>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl
 							</wsdlFile>
 							<databindingName>adb</databindingName>
-							<flattenFiles>false</flattenFiles>
 							<outputDirectory>src/main/java</outputDirectory>
+							<flattenFiles>true</flattenFiles>
+							<unpackClasses>true</unpackClasses>
 						</configuration>
 					</execution>
 					<execution>
