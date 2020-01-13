@@ -7,7 +7,7 @@ import lombok.Getter;
 
 @Component
 public class AppConfig {
-
+	
 	@Getter
 	private String serviceHubAuthKey;
 	@Getter

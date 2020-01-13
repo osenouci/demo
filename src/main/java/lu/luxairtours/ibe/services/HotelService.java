@@ -21,7 +21,7 @@ import de.bewotec.content.ContentServiceStub.GetContentForAccommodation;
 public class HotelService {
 
 	private AppConfig config;
-
+	
 	public String getHotelInfo() throws Exception {
 		return "";
 	}
@@ -30,20 +30,20 @@ public class HotelService {
 		this.config = config;
 	}
 	
-	public GetContentForAccommodationResponse getHotelDetails(String hotelCode, String lang, Calendar dateFrom, Calendar dateTo) throws Exception {
+	public GetContentForAccommodationResponse getHotelDetails(String hotelCode, String lang, String departureAirport, Calendar dateFrom, Calendar dateTo) throws Exception {
 		
 		// Build the request
 		ContentForAccommodationRequest hotelContentRequest = new ContentForAccommodationRequest();
 
 		hotelContentRequest.setLanguageCode(lang);
 		hotelContentRequest.setAuthKey(this.config.getContentAuthKey());
-		hotelContentRequest.setTourOperatorCode("LUX");
+		hotelContentRequest.setTourOperatorCode(departureAirport);
 		hotelContentRequest.setDetailLevel(DetailLevelEnum.Full);
 		
 		ArrayOfIdentifier identifiers = new ArrayOfIdentifier();
 		Identifier identifier = new Identifier();
 		identifier.setProductCode(hotelCode);
-		identifier.setTouroperator("LUX");
+		identifier.setTouroperator(departureAirport);
 		
 		if(dateFrom != null) {
 			identifier.setCheckInDate(dateFrom);			

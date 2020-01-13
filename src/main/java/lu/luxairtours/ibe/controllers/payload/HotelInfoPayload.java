@@ -19,6 +19,9 @@ public class HotelInfoPayload {
 	@LanguageConstraint
 	private String lang = "fr";
 	
+	@Getter
+	private String departureAirport = "LUX";
+	
 	@Setter
 	@DateConstraint
 	private String dateFrom;
