@@ -1,6 +1,11 @@
 package lu.luxairtours.ibe.services;
 
 import org.springframework.beans.factory.annotation.Value;
+import de.bewotec.service.BewotecHubServiceStub;
+import de.bewotec.bewotecws.schema.GetAvailableValues;
+import de.bewotec.bewotecws.schema.ValuesRequestType;
+import de.bewotec.bewotecws.schema.GetAvailableValuesResponse;
+import de.bewotec.bewotecws.schema.ProductEnum;
 
 public class HotelService {
 
@@ -17,14 +22,23 @@ public class HotelService {
 	private String contentUrl;
 	@Value("${bewotec.searchHub.actionPrefix}")
 	private String actionPrefix;
-
-	private final static String SOUP_ACTION_GET_AVAILABLE_VALUES = "GetAvailableValues";
 	
-	public String getHotelList(String language) {
-		
-		
-		
+	public String getHotelInfo() throws Exception {
 		
 		return "";
+	}
+	public GetAvailableValuesResponse getHotelList(String language) throws Exception, Exception {
+
+		BewotecHubServiceStub service = new BewotecHubServiceStub("http://192.150.150.238:6164/Bewo.Hub.Service/BewotecHubService.svc");
+		GetAvailableValues requestContainer = new GetAvailableValues();
+		
+		ValuesRequestType request = new ValuesRequestType();
+		
+		request.setAuthKey("FtM8u18lux");
+		request.setProductType(ProductEnum.PACKAGE);
+	
+		requestContainer.setGetAvailableValuesRequest(request);
+		GetAvailableValuesResponse res = service.getAvailableValues(requestContainer);
+		return res;		
 	}
 }

@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import de.bewotec.bewotecws.schema.GetAvailableValuesResponse;
 import lu.luxairtours.ibe.controllers.payload.HotelListPayload;
 import lu.luxairtours.ibe.services.HotelService;
 
@@ -21,7 +23,7 @@ public class HotelController {
 	private static final HotelService hotelService = new HotelService(); 
 	
 	@RequestMapping(path = "/hotels", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
-	public String getHotelList(@Valid HotelListPayload payload) {
+	public GetAvailableValuesResponse getHotelList(@Valid HotelListPayload payload) throws Exception {
 		return hotelService.getHotelList(payload.getLang());
 	}
 	
