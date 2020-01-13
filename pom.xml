@@ -14,6 +14,12 @@
 		<version>2.2.2.RELEASE</version>
 	</parent>
 
+	<properties>
+		<java.version>1.8</java.version>
+		<axis2.version>1.7.9</axis2.version>
+		<log4j.version>1.2.17</log4j.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -29,6 +35,7 @@
 			<artifactId>json</artifactId>
 			<version>20180130</version>
 		</dependency>
+
 		<!-- Import Axis2 dependencies used to generate the stub files -->
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
@@ -61,6 +68,13 @@
 			<artifactId>axis2-jaxws</artifactId>
 			<version>${axis2.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-jaxbri -->
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-jaxbri</artifactId>
+			<version>${axis2.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -68,12 +82,6 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-
-	<properties>
-		<java.version>1.8</java.version>
-		<axis2.version>1.7.9</axis2.version>
-		<log4j.version>1.2.17</log4j.version>
-	</properties>
 
 	<build>
 		<plugins>
@@ -96,10 +104,9 @@
 							<packageName>de.bewotec.service</packageName>
 							<wsdlFile>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl
 							</wsdlFile>
-							<databindingName>adb</databindingName>
+							<databindingName>jaxbri</databindingName>
 							<outputDirectory>src/main/java</outputDirectory>
 							<flattenFiles>true</flattenFiles>
-							<unpackClasses>true</unpackClasses>
 						</configuration>
 					</execution>
 					<execution>
