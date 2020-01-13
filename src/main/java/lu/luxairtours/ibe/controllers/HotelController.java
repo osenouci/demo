@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import de.bewotec.bewotecws.schema.GetAvailableValuesResponse;
+import de.bewotec.content.ContentServiceStub.GetContentForAccommodationResponse;
+import lu.luxairtours.ibe.controllers.payload.HotelInfoPayload;
 import lu.luxairtours.ibe.controllers.payload.HotelListPayload;
 import lu.luxairtours.ibe.services.HotelService;
 
@@ -32,9 +34,8 @@ public class HotelController {
 	}
 	
 	@RequestMapping(path="/hotels/{hotelCode}")
-	public String getHotelInfo(@PathVariable("hotelCode") String hotelCode, @RequestParam(name = "lang", required=false, defaultValue = "fr")String lang) throws Exception {
-//		return client.getHotelInformation(hotelCode, lang);
-		return lang;
+	public GetContentForAccommodationResponse getHotelInfo(@PathVariable("hotelCode") String hotelCode, @Valid HotelInfoPayload payload) throws Exception {
+		return hotelService.getHotelDetails(hotelCode, payload.getLang(), payload.getDateFrom(), payload.getDateTo());
 	}
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET, produces=MediaType.APPLICATION_XML_VALUE)
