@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import lu.luxairtours.ibe.controllers.payload.HotelListPayload;
+import lu.luxairtours.ibe.services.HotelService;
+
 import javax.validation.Valid;
 
 import org.slf4j.Logger;
@@ -16,10 +18,11 @@ import org.springframework.http.MediaType;
 public class HotelController {
 
 	private static final Logger log = LoggerFactory.getLogger(HotelController.class);
+	private static final HotelService hotelService = new HotelService(); 
 	
 	@RequestMapping(path = "/hotels", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
 	public String getHotelList(@Valid HotelListPayload payload) {
-		return payload.getLang();
+		return hotelService.getHotelList(payload.getLang());
 	}
 	
 	@RequestMapping(path="/hotels/{hotelCode}")

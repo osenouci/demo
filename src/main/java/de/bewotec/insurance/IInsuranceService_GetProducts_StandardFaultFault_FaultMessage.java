@@ -8,7 +8,7 @@ package de.bewotec.insurance;
 
 public class IInsuranceService_GetProducts_StandardFaultFault_FaultMessage
     extends java.lang.Exception {
-    private static final long serialVersionUID = 1578900392064L;
+    private static final long serialVersionUID = 1578912969212L;
     private de.bewotec.insurance.InsurancesServiceStub.StandardFaultE faultMessage;
 
     public IInsuranceService_GetProducts_StandardFaultFault_FaultMessage() {
