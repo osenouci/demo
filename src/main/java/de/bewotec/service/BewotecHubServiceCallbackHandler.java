@@ -43,7 +43,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getFilters operation
      */
     public void receiveResultgetFilters(
-        de.bewotec.www.bewotecws.schema.GetFiltersResponse result) {
+        de.bewotec.bewotecws.schema.GetFiltersResponse result) {
     }
 
     /**
@@ -58,7 +58,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductList operation
      */
     public void receiveResultgetProductList(
-        de.bewotec.www.bewotecws.schema.GetProductListResponse result) {
+        de.bewotec.bewotecws.schema.GetProductListResponse result) {
     }
 
     /**
@@ -73,7 +73,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductOffers operation
      */
     public void receiveResultgetProductOffers(
-        de.bewotec.www.bewotecws.schema.GetProductOffersResponse result) {
+        de.bewotec.bewotecws.schema.GetProductOffersResponse result) {
     }
 
     /**
@@ -88,7 +88,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductMatrix operation
      */
     public void receiveResultgetProductMatrix(
-        de.bewotec.www.bewotecws.schema.GetProductMatrixResponse result) {
+        de.bewotec.bewotecws.schema.GetProductMatrixResponse result) {
     }
 
     /**
@@ -103,7 +103,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductAvailability operation
      */
     public void receiveResultgetProductAvailability(
-        de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse result) {
+        de.bewotec.bewotecws.schema.GetProductAvailabilityResponse result) {
     }
 
     /**
@@ -118,7 +118,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductGroups operation
      */
     public void receiveResultgetProductGroups(
-        de.bewotec.www.bewotecws.schema.GetProductGroupsResponse result) {
+        de.bewotec.bewotecws.schema.GetProductGroupsResponse result) {
     }
 
     /**
@@ -133,7 +133,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getAvailableValues operation
      */
     public void receiveResultgetAvailableValues(
-        de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse result) {
+        de.bewotec.bewotecws.schema.GetAvailableValuesResponse result) {
     }
 
     /**
@@ -148,7 +148,7 @@ public abstract class BewotecHubServiceCallbackHandler {
      * override this method for handling normal response from getProductVariant operation
      */
     public void receiveResultgetProductVariant(
-        de.bewotec.www.bewotecws.schema.GetProductVariantResponse result) {
+        de.bewotec.bewotecws.schema.GetProductVariantResponse result) {
     }
 
     /**

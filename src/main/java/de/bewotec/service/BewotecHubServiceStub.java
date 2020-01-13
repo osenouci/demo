@@ -10,9 +10,45 @@ package de.bewotec.service;
 /*
  *  BewotecHubServiceStub java implementation
  */
-public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
-    implements BewotecHubService {
+public class BewotecHubServiceStub extends org.apache.axis2.client.Stub {
     private static int counter = 0;
+
+    //http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.svc
+    private static javax.xml.namespace.QName[] qNameArray = {  };
+    private static final javax.xml.bind.JAXBContext wsContext;
+
+    static {
+        javax.xml.bind.JAXBContext jc;
+        jc = null;
+
+        try {
+            jc = javax.xml.bind.JAXBContext.newInstance(de.bewotec.bewotecws.schema.GetFilters.class,
+                    de.bewotec.bewotecws.schema.GetFiltersResponse.class,
+                    de.bewotec.bewotecws.schema.GenericFaultType.class,
+                    de.bewotec.bewotecws.schema.GetProductList.class,
+                    de.bewotec.bewotecws.schema.GetProductListResponse.class,
+                    de.bewotec.bewotecws.schema.GetProductOffers.class,
+                    de.bewotec.bewotecws.schema.GetProductOffersResponse.class,
+                    de.bewotec.bewotecws.schema.GetProductMatrix.class,
+                    de.bewotec.bewotecws.schema.GetProductMatrixResponse.class,
+                    de.bewotec.bewotecws.schema.GetProductAvailability.class,
+                    de.bewotec.bewotecws.schema.GetProductAvailabilityResponse.class,
+                    de.bewotec.bewotecws.schema.GetProductGroups.class,
+                    de.bewotec.bewotecws.schema.GetProductGroupsResponse.class,
+                    de.bewotec.bewotecws.schema.GetAvailableValues.class,
+                    de.bewotec.bewotecws.schema.GetAvailableValuesResponse.class,
+                    de.bewotec.bewotecws.schema.GetProductVariant.class,
+                    de.bewotec.bewotecws.schema.GetProductVariantResponse.class);
+        } catch (javax.xml.bind.JAXBException ex) {
+            System.err.println("Unable to create JAXBContext: " +
+                ex.getMessage());
+            ex.printStackTrace(System.err);
+            Runtime.getRuntime().exit(-1);
+        } finally {
+            wsContext = jc;
+        }
+    }
+
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     //hashmaps to keep the fault mapping
@@ -180,7 +216,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         faultMessageMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
-                "GetFilters"), "de.bewotec.www.bewotecws.schema.GenericFault");
+                "GetFilters"), "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -196,7 +232,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductList"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -212,7 +248,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductOffers"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -228,7 +264,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductMatrix"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -244,7 +280,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductAvailability"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -260,7 +296,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductGroups"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -276,7 +312,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetAvailableValues"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
 
         faultExceptionNameMap.put(new org.apache.axis2.client.FaultMapKey(
                 new javax.xml.namespace.QName(
@@ -292,18 +328,18 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
                 new javax.xml.namespace.QName(
                     "http://www.bewotec.de/bewotecws/Schema", "GenericFault"),
                 "GetProductVariant"),
-            "de.bewotec.www.bewotecws.schema.GenericFault");
+            "de.bewotec.bewotecws.schema.GenericFaultType");
     }
 
     /**
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getFilters
-     * @param getFilters16
+     * @param getFilters0
      * @throws de.bewotec.service.BewotecHubService_GetFilters_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetFiltersResponse getFilters(
-        de.bewotec.www.bewotecws.schema.GetFilters getFilters16)
+    public de.bewotec.bewotecws.schema.GetFiltersResponse getFilters(
+        de.bewotec.bewotecws.schema.GetFilters getFilters0)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetFilters_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -323,7 +359,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getFilters16,
+                    getFilters0,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -347,9 +383,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetFiltersResponse.class);
+                    de.bewotec.bewotecws.schema.GetFiltersResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetFiltersResponse) object;
+            return (de.bewotec.bewotecws.schema.GetFiltersResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -417,10 +453,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetFilters
-     * @param getFilters16
+     * @param getFilters0
      */
     public void startgetFilters(
-        de.bewotec.www.bewotecws.schema.GetFilters getFilters16,
+        de.bewotec.bewotecws.schema.GetFilters getFilters0,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
@@ -439,7 +475,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getFilters16,
+                getFilters0,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema", "getFilters")),
@@ -462,8 +498,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetFiltersResponse.class);
-                        callback.receiveResultgetFilters((de.bewotec.www.bewotecws.schema.GetFiltersResponse) object);
+                                de.bewotec.bewotecws.schema.GetFiltersResponse.class);
+                        callback.receiveResultgetFilters((de.bewotec.bewotecws.schema.GetFiltersResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetFilters(e);
                     }
@@ -572,11 +608,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductList
-     * @param getProductList18
+     * @param getProductList2
      * @throws de.bewotec.service.BewotecHubService_GetProductList_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductListResponse getProductList(
-        de.bewotec.www.bewotecws.schema.GetProductList getProductList18)
+    public de.bewotec.bewotecws.schema.GetProductListResponse getProductList(
+        de.bewotec.bewotecws.schema.GetProductList getProductList2)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductList_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -596,7 +632,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductList18,
+                    getProductList2,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -621,9 +657,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductListResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductListResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductListResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductListResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -691,10 +727,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductList
-     * @param getProductList18
+     * @param getProductList2
      */
     public void startgetProductList(
-        de.bewotec.www.bewotecws.schema.GetProductList getProductList18,
+        de.bewotec.bewotecws.schema.GetProductList getProductList2,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[1].getName());
@@ -713,7 +749,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductList18,
+                getProductList2,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -737,8 +773,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductListResponse.class);
-                        callback.receiveResultgetProductList((de.bewotec.www.bewotecws.schema.GetProductListResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductListResponse.class);
+                        callback.receiveResultgetProductList((de.bewotec.bewotecws.schema.GetProductListResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductList(e);
                     }
@@ -848,11 +884,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductOffers
-     * @param getProductOffers20
+     * @param getProductOffers4
      * @throws de.bewotec.service.BewotecHubService_GetProductOffers_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductOffersResponse getProductOffers(
-        de.bewotec.www.bewotecws.schema.GetProductOffers getProductOffers20)
+    public de.bewotec.bewotecws.schema.GetProductOffersResponse getProductOffers(
+        de.bewotec.bewotecws.schema.GetProductOffers getProductOffers4)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductOffers_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -872,7 +908,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductOffers20,
+                    getProductOffers4,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -897,9 +933,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductOffersResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductOffersResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductOffersResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductOffersResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -967,10 +1003,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductOffers
-     * @param getProductOffers20
+     * @param getProductOffers4
      */
     public void startgetProductOffers(
-        de.bewotec.www.bewotecws.schema.GetProductOffers getProductOffers20,
+        de.bewotec.bewotecws.schema.GetProductOffers getProductOffers4,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[2].getName());
@@ -989,7 +1025,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductOffers20,
+                getProductOffers4,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -1013,8 +1049,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductOffersResponse.class);
-                        callback.receiveResultgetProductOffers((de.bewotec.www.bewotecws.schema.GetProductOffersResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductOffersResponse.class);
+                        callback.receiveResultgetProductOffers((de.bewotec.bewotecws.schema.GetProductOffersResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductOffers(e);
                     }
@@ -1124,11 +1160,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductMatrix
-     * @param getProductMatrix22
+     * @param getProductMatrix6
      * @throws de.bewotec.service.BewotecHubService_GetProductMatrix_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductMatrixResponse getProductMatrix(
-        de.bewotec.www.bewotecws.schema.GetProductMatrix getProductMatrix22)
+    public de.bewotec.bewotecws.schema.GetProductMatrixResponse getProductMatrix(
+        de.bewotec.bewotecws.schema.GetProductMatrix getProductMatrix6)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductMatrix_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -1148,7 +1184,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductMatrix22,
+                    getProductMatrix6,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -1173,9 +1209,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductMatrixResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductMatrixResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductMatrixResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductMatrixResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -1243,10 +1279,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductMatrix
-     * @param getProductMatrix22
+     * @param getProductMatrix6
      */
     public void startgetProductMatrix(
-        de.bewotec.www.bewotecws.schema.GetProductMatrix getProductMatrix22,
+        de.bewotec.bewotecws.schema.GetProductMatrix getProductMatrix6,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[3].getName());
@@ -1265,7 +1301,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductMatrix22,
+                getProductMatrix6,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -1289,8 +1325,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductMatrixResponse.class);
-                        callback.receiveResultgetProductMatrix((de.bewotec.www.bewotecws.schema.GetProductMatrixResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductMatrixResponse.class);
+                        callback.receiveResultgetProductMatrix((de.bewotec.bewotecws.schema.GetProductMatrixResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductMatrix(e);
                     }
@@ -1400,11 +1436,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductAvailability
-     * @param getProductAvailability24
+     * @param getProductAvailability8
      * @throws de.bewotec.service.BewotecHubService_GetProductAvailability_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse getProductAvailability(
-        de.bewotec.www.bewotecws.schema.GetProductAvailability getProductAvailability24)
+    public de.bewotec.bewotecws.schema.GetProductAvailabilityResponse getProductAvailability(
+        de.bewotec.bewotecws.schema.GetProductAvailability getProductAvailability8)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductAvailability_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -1424,7 +1460,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductAvailability24,
+                    getProductAvailability8,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -1449,9 +1485,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductAvailabilityResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductAvailabilityResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -1521,10 +1557,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductAvailability
-     * @param getProductAvailability24
+     * @param getProductAvailability8
      */
     public void startgetProductAvailability(
-        de.bewotec.www.bewotecws.schema.GetProductAvailability getProductAvailability24,
+        de.bewotec.bewotecws.schema.GetProductAvailability getProductAvailability8,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[4].getName());
@@ -1543,7 +1579,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductAvailability24,
+                getProductAvailability8,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -1568,8 +1604,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse.class);
-                        callback.receiveResultgetProductAvailability((de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductAvailabilityResponse.class);
+                        callback.receiveResultgetProductAvailability((de.bewotec.bewotecws.schema.GetProductAvailabilityResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductAvailability(e);
                     }
@@ -1679,11 +1715,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductGroups
-     * @param getProductGroups26
+     * @param getProductGroups10
      * @throws de.bewotec.service.BewotecHubService_GetProductGroups_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductGroupsResponse getProductGroups(
-        de.bewotec.www.bewotecws.schema.GetProductGroups getProductGroups26)
+    public de.bewotec.bewotecws.schema.GetProductGroupsResponse getProductGroups(
+        de.bewotec.bewotecws.schema.GetProductGroups getProductGroups10)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductGroups_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -1703,7 +1739,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductGroups26,
+                    getProductGroups10,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -1728,9 +1764,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductGroupsResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductGroupsResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductGroupsResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductGroupsResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -1798,10 +1834,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductGroups
-     * @param getProductGroups26
+     * @param getProductGroups10
      */
     public void startgetProductGroups(
-        de.bewotec.www.bewotecws.schema.GetProductGroups getProductGroups26,
+        de.bewotec.bewotecws.schema.GetProductGroups getProductGroups10,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[5].getName());
@@ -1820,7 +1856,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductGroups26,
+                getProductGroups10,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -1844,8 +1880,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductGroupsResponse.class);
-                        callback.receiveResultgetProductGroups((de.bewotec.www.bewotecws.schema.GetProductGroupsResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductGroupsResponse.class);
+                        callback.receiveResultgetProductGroups((de.bewotec.bewotecws.schema.GetProductGroupsResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductGroups(e);
                     }
@@ -1955,11 +1991,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getAvailableValues
-     * @param getAvailableValues28
+     * @param getAvailableValues12
      * @throws de.bewotec.service.BewotecHubService_GetAvailableValues_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse getAvailableValues(
-        de.bewotec.www.bewotecws.schema.GetAvailableValues getAvailableValues28)
+    public de.bewotec.bewotecws.schema.GetAvailableValuesResponse getAvailableValues(
+        de.bewotec.bewotecws.schema.GetAvailableValues getAvailableValues12)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetAvailableValues_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -1979,7 +2015,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getAvailableValues28,
+                    getAvailableValues12,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -2004,9 +2040,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse.class);
+                    de.bewotec.bewotecws.schema.GetAvailableValuesResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse) object;
+            return (de.bewotec.bewotecws.schema.GetAvailableValuesResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -2074,10 +2110,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetAvailableValues
-     * @param getAvailableValues28
+     * @param getAvailableValues12
      */
     public void startgetAvailableValues(
-        de.bewotec.www.bewotecws.schema.GetAvailableValues getAvailableValues28,
+        de.bewotec.bewotecws.schema.GetAvailableValues getAvailableValues12,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[6].getName());
@@ -2096,7 +2132,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getAvailableValues28,
+                getAvailableValues12,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -2121,8 +2157,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse.class);
-                        callback.receiveResultgetAvailableValues((de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse) object);
+                                de.bewotec.bewotecws.schema.GetAvailableValuesResponse.class);
+                        callback.receiveResultgetAvailableValues((de.bewotec.bewotecws.schema.GetAvailableValuesResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetAvailableValues(e);
                     }
@@ -2232,11 +2268,11 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature
      *
      * @see de.bewotec.service.BewotecHubService#getProductVariant
-     * @param getProductVariant30
+     * @param getProductVariant14
      * @throws de.bewotec.service.BewotecHubService_GetProductVariant_GenericFaultFault_FaultMessage :
      */
-    public de.bewotec.www.bewotecws.schema.GetProductVariantResponse getProductVariant(
-        de.bewotec.www.bewotecws.schema.GetProductVariant getProductVariant30)
+    public de.bewotec.bewotecws.schema.GetProductVariantResponse getProductVariant(
+        de.bewotec.bewotecws.schema.GetProductVariant getProductVariant14)
         throws java.rmi.RemoteException,
             de.bewotec.service.BewotecHubService_GetProductVariant_GenericFaultFault_FaultMessage {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
@@ -2256,7 +2292,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             env = toEnvelope(getFactory(_operationClient.getOptions()
                                                         .getSoapVersionURI()),
-                    getProductVariant30,
+                    getProductVariant14,
                     optimizeContent(
                         new javax.xml.namespace.QName(
                             "http://www.bewotec.de/bewotecws/Schema",
@@ -2281,9 +2317,9 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    de.bewotec.www.bewotecws.schema.GetProductVariantResponse.class);
+                    de.bewotec.bewotecws.schema.GetProductVariantResponse.class);
 
-            return (de.bewotec.www.bewotecws.schema.GetProductVariantResponse) object;
+            return (de.bewotec.bewotecws.schema.GetProductVariantResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -2351,10 +2387,10 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
      * Auto generated method signature for Asynchronous Invocations
      *
      * @see de.bewotec.service.BewotecHubService#startgetProductVariant
-     * @param getProductVariant30
+     * @param getProductVariant14
      */
     public void startgetProductVariant(
-        de.bewotec.www.bewotecws.schema.GetProductVariant getProductVariant30,
+        de.bewotec.bewotecws.schema.GetProductVariant getProductVariant14,
         final de.bewotec.service.BewotecHubServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[7].getName());
@@ -2373,7 +2409,7 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         //Style is Doc.
         env = toEnvelope(getFactory(_operationClient.getOptions()
                                                     .getSoapVersionURI()),
-                getProductVariant30,
+                getProductVariant14,
                 optimizeContent(
                     new javax.xml.namespace.QName(
                         "http://www.bewotec.de/bewotecws/Schema",
@@ -2398,8 +2434,8 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                de.bewotec.www.bewotecws.schema.GetProductVariantResponse.class);
-                        callback.receiveResultgetProductVariant((de.bewotec.www.bewotecws.schema.GetProductVariantResponse) object);
+                                de.bewotec.bewotecws.schema.GetProductVariantResponse.class);
+                        callback.receiveResultgetProductVariant((de.bewotec.bewotecws.schema.GetProductVariantResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorgetProductVariant(e);
                     }
@@ -2519,345 +2555,481 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
         return false;
     }
 
-    //http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.svc
     private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetFilters param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetFilters.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
+        de.bewotec.bewotecws.schema.GetFilters param, boolean optimizeContent,
+        javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
 
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetFiltersResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetFiltersResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
 
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GenericFault param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GenericFault.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductList param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductList.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductListResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductListResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductOffers param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductOffers.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductOffersResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductOffersResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductMatrix param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductMatrix.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductMatrixResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductMatrixResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductAvailability param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductAvailability.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductGroups param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductGroups.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductGroupsResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductGroupsResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetAvailableValues param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetAvailableValues.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductVariant param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductVariant.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-        de.bewotec.www.bewotecws.schema.GetProductVariantResponse param,
-        boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(de.bewotec.www.bewotecws.schema.GetProductVariantResponse.MY_QNAME,
-                org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
     }
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetFilters param,
-        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        de.bewotec.bewotecws.schema.GetFilters param, boolean optimizeContent,
+        javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetFilters.MY_QNAME, factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetFiltersResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductList param,
+        de.bewotec.bewotecws.schema.GetFiltersResponse param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductList.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GenericFaultType param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductOffers param,
+        de.bewotec.bewotecws.schema.GenericFaultType param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductOffers.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductList param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductMatrix param,
+        de.bewotec.bewotecws.schema.GetProductList param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductMatrix.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductListResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductAvailability param,
+        de.bewotec.bewotecws.schema.GetProductListResponse param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductAvailability.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductOffers param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductGroups param,
+        de.bewotec.bewotecws.schema.GetProductOffers param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductGroups.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductOffersResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetAvailableValues param,
+        de.bewotec.bewotecws.schema.GetProductOffersResponse param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetAvailableValues.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductMatrix param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        de.bewotec.www.bewotecws.schema.GetProductVariant param,
+        de.bewotec.bewotecws.schema.GetProductMatrix param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
-        try {
-            org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-            emptyEnvelope.getBody()
-                         .addChild(param.getOMElement(
-                    de.bewotec.www.bewotecws.schema.GetProductVariant.MY_QNAME,
-                    factory));
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
 
-            return emptyEnvelope;
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
+        return envelope;
     }
 
-    /* methods to provide back word compatibility */
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductMatrixResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductMatrixResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductAvailability param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductAvailability param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductAvailabilityResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductAvailabilityResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductGroups param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductGroups param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductGroupsResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductGroupsResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetAvailableValues param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetAvailableValues param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetAvailableValuesResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetAvailableValuesResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductVariant param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductVariant param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
+
+    private org.apache.axiom.om.OMElement toOM(
+        de.bewotec.bewotecws.schema.GetProductVariantResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.om.OMFactory factory = org.apache.axiom.om.OMAbstractFactory.getOMFactory();
+
+        java.lang.Object object = param;
+        org.apache.axiom.om.ds.jaxb.JAXBOMDataSource source = new org.apache.axiom.om.ds.jaxb.JAXBOMDataSource(wsContext,
+                new javax.xml.bind.JAXBElement(elementQName, object.getClass(),
+                    object));
+        org.apache.axiom.om.OMNamespace namespace = factory.createOMNamespace(elementQName.getNamespaceURI(),
+                null);
+
+        return factory.createOMElement(source, elementQName.getLocalPart(),
+            namespace);
+    }
+
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
+        org.apache.axiom.soap.SOAPFactory factory,
+        de.bewotec.bewotecws.schema.GetProductVariantResponse param,
+        boolean optimizeContent, javax.xml.namespace.QName elementQName)
+        throws org.apache.axis2.AxisFault {
+        org.apache.axiom.soap.SOAPEnvelope envelope = factory.getDefaultEnvelope();
+        envelope.getBody().addChild(toOM(param, optimizeContent, elementQName));
+
+        return envelope;
+    }
 
     /**
      *  get the default envelope
@@ -2870,92 +3042,14 @@ public class BewotecHubServiceStub extends org.apache.axis2.client.Stub
     private java.lang.Object fromOM(org.apache.axiom.om.OMElement param,
         java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (de.bewotec.www.bewotecws.schema.GenericFault.class.equals(type)) {
-                return de.bewotec.www.bewotecws.schema.GenericFault.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
+            javax.xml.bind.JAXBContext context = wsContext;
+            javax.xml.bind.Unmarshaller unmarshaller = context.createUnmarshaller();
+            org.apache.axiom.util.jaxb.UnmarshallerAdapter adapter = org.apache.axiom.util.jaxb.JAXBUtils.getUnmarshallerAdapter(param.getXMLStreamReaderWithoutCaching());
+            unmarshaller.setAttachmentUnmarshaller(adapter.getAttachmentUnmarshaller());
 
-            if (de.bewotec.www.bewotecws.schema.GetAvailableValues.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetAvailableValues.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetAvailableValuesResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetFilters.class.equals(type)) {
-                return de.bewotec.www.bewotecws.schema.GetFilters.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetFiltersResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetFiltersResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductAvailability.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductAvailability.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductAvailabilityResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductGroups.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductGroups.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductGroupsResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductGroupsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductList.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductList.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductListResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductListResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductMatrix.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductMatrix.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductMatrixResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductMatrixResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductOffers.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductOffers.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductOffersResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductOffersResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductVariant.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductVariant.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-
-            if (de.bewotec.www.bewotecws.schema.GetProductVariantResponse.class.equals(
-                        type)) {
-                return de.bewotec.www.bewotecws.schema.GetProductVariantResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
-            }
-        } catch (java.lang.Exception e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
+            return unmarshaller.unmarshal(adapter.getReader(), type).getValue();
+        } catch (javax.xml.bind.JAXBException bex) {
+            throw org.apache.axis2.AxisFault.makeFault(bex);
         }
-
-        return null;
     }
 }

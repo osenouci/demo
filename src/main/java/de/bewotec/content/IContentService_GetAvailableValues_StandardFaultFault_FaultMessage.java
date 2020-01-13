@@ -8,7 +8,7 @@ package de.bewotec.content;
 
 public class IContentService_GetAvailableValues_StandardFaultFault_FaultMessage
     extends java.lang.Exception {
-    private static final long serialVersionUID = 1578912985628L;
+    private static final long serialVersionUID = 1578925641595L;
     private de.bewotec.content.ContentServiceStub.StandardFaultE faultMessage;
 
     public IContentService_GetAvailableValues_StandardFaultFault_FaultMessage() {

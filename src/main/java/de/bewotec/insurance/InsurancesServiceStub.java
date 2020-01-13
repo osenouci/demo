@@ -847,7 +847,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
     //http://192.150.150.228:8073/InsurancesService/InsurancesService.svc
     public static class CreditCardPaymentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "CreditCardPayment", "ns2");
+                "CreditCardPayment", "ns1");
 
         /**
          * field for CreditCardPayment
@@ -914,7 +914,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1204,7 +1204,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedShort implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedShort", "ns3");
+                "unsignedShort", "ns2");
 
         /**
          * field for UnsignedShort
@@ -1293,7 +1293,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1584,7 +1584,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _char implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "char", "ns3");
+                "char", "ns2");
 
         /**
          * field for _char
@@ -1674,7 +1674,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1975,7 +1975,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _short implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "short", "ns3");
+                "short", "ns2");
 
         /**
          * field for _short
@@ -2062,7 +2062,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -2355,7 +2355,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AnyType implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "anyType", "ns3");
+                "anyType", "ns2");
 
         /**
          * field for AnyType
@@ -2448,7 +2448,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -2727,7 +2727,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ProductsResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ProductsResponse", "ns2");
+                "ProductsResponse", "ns1");
 
         /**
          * field for ProductsResponse
@@ -2793,7 +2793,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3085,7 +3085,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ProductsResponse
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -3194,7 +3194,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3509,7 +3509,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DebitPaymentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "DebitPayment", "ns2");
+                "DebitPayment", "ns1");
 
         /**
          * field for DebitPayment
@@ -3575,7 +3575,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3866,7 +3866,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = PassengerAssignment
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -4022,7 +4022,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -4367,7 +4367,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class PassengerAssignmentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "PassengerAssignment", "ns2");
+                "PassengerAssignment", "ns1");
 
         /**
          * field for PassengerAssignment
@@ -4434,7 +4434,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -4724,7 +4724,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfPassengerE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ArrayOfPassenger", "ns2");
+                "ArrayOfPassenger", "ns1");
 
         /**
          * field for ArrayOfPassenger
@@ -4790,7 +4790,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -5080,7 +5080,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetProductsResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "GetProductsResponse", "ns2");
+                "GetProductsResponse", "ns1");
 
         /**
          * field for GetProductsResult
@@ -5188,7 +5188,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -5505,7 +5505,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfServiceInfo
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -5654,7 +5654,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -6012,7 +6012,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfServiceInfoE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ArrayOfServiceInfo", "ns2");
+                "ArrayOfServiceInfo", "ns1");
 
         /**
          * field for ArrayOfServiceInfo
@@ -6079,7 +6079,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -6371,7 +6371,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = StandardFault
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -6464,7 +6464,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -6783,7 +6783,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Payment
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -6841,7 +6841,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -7130,7 +7130,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = CreditCardPayment
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -7529,7 +7529,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -8005,7 +8005,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfProductInfoE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ArrayOfProductInfo", "ns2");
+                "ArrayOfProductInfo", "ns1");
 
         /**
          * field for ArrayOfProductInfo
@@ -8072,7 +8072,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -8362,7 +8362,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfPassengerAssignmentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ArrayOfPassengerAssignment", "ns2");
+                "ArrayOfPassengerAssignment", "ns1");
 
         /**
          * field for ArrayOfPassengerAssignment
@@ -8430,7 +8430,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -8720,7 +8720,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetProductsRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "GetProductsRequest", "ns2");
+                "GetProductsRequest", "ns1");
 
         /**
          * field for GetProductsRequest
@@ -8787,7 +8787,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -9191,7 +9191,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class CustomerE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "Customer", "ns2");
+                "Customer", "ns1");
 
         /**
          * field for Customer
@@ -9257,7 +9257,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -9546,7 +9546,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class PassengerE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "Passenger", "ns2");
+                "Passenger", "ns1");
 
         /**
          * field for Passenger
@@ -9612,7 +9612,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -9903,7 +9903,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Customer
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -10669,7 +10669,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -11353,7 +11353,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _charE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "char", "ns3");
+                "char", "ns2");
 
         /**
          * field for _char
@@ -11420,7 +11420,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -11709,7 +11709,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfPassenger
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -11858,7 +11858,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -12218,7 +12218,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RequestContext
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -12472,7 +12472,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -12866,7 +12866,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfPassengerAssignment
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -13016,7 +13016,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -13374,7 +13374,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedByte implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedByte", "ns3");
+                "unsignedByte", "ns2");
 
         /**
          * field for UnsignedByte
@@ -13463,7 +13463,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -13753,7 +13753,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RequestContextE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "RequestContext", "ns2");
+                "RequestContext", "ns1");
 
         /**
          * field for RequestContext
@@ -13819,7 +13819,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -14109,7 +14109,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class QName implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "QName", "ns3");
+                "QName", "ns2");
 
         /**
          * field for QName
@@ -14196,7 +14196,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -14494,7 +14494,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedLong implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedLong", "ns3");
+                "unsignedLong", "ns2");
 
         /**
          * field for UnsignedLong
@@ -14583,7 +14583,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -14875,7 +14875,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ServiceInfo
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -15132,7 +15132,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -15530,7 +15530,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = BookResponse
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -15840,7 +15840,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -16261,7 +16261,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class StandardFaultE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "StandardFault", "ns2");
+                "StandardFault", "ns1");
 
         /**
          * field for StandardFault
@@ -16327,7 +16327,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -16619,7 +16619,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = DebitPayment
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -16920,7 +16920,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -17338,7 +17338,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _int implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "int", "ns3");
+                "int", "ns2");
 
         /**
          * field for _int
@@ -17425,7 +17425,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -17720,7 +17720,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfProductInfo
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -17869,7 +17869,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -18227,7 +18227,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _double implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "double", "ns3");
+                "double", "ns2");
 
         /**
          * field for _double
@@ -18314,7 +18314,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -18609,7 +18609,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ProductInfo
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -19062,7 +19062,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -19562,7 +19562,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Decimal implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "decimal", "ns3");
+                "decimal", "ns2");
 
         /**
          * field for Decimal
@@ -19650,7 +19650,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -19939,7 +19939,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Guid implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "guid", "ns3");
+                "guid", "ns2");
 
         /**
          * field for Guid
@@ -20035,7 +20035,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -20336,7 +20336,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class String implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "string", "ns3");
+                "string", "ns2");
 
         /**
          * field for String
@@ -20423,7 +20423,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -20712,7 +20712,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DateTime implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "dateTime", "ns3");
+                "dateTime", "ns2");
 
         /**
          * field for DateTime
@@ -20800,7 +20800,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -21090,7 +21090,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _byte implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "byte", "ns3");
+                "byte", "ns2");
 
         /**
          * field for _byte
@@ -21177,7 +21177,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -21470,7 +21470,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class BookProduct implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "BookProduct", "ns2");
+                "BookProduct", "ns1");
 
         /**
          * field for Request
@@ -21578,7 +21578,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -21893,7 +21893,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _boolean implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "boolean", "ns3");
+                "boolean", "ns2");
 
         /**
          * field for _boolean
@@ -21980,7 +21980,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -22270,7 +22270,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Base64Binary implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "base64Binary", "ns3");
+                "base64Binary", "ns2");
 
         /**
          * field for Base64Binary
@@ -22365,7 +22365,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -22654,7 +22654,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class BookProductRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "BookProductRequest", "ns2");
+                "BookProductRequest", "ns1");
 
         /**
          * field for BookProductRequest
@@ -22721,7 +22721,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -23013,7 +23013,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = GetProductsRequest
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -23469,7 +23469,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -23973,7 +23973,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ServiceInfoE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ServiceInfo", "ns2");
+                "ServiceInfo", "ns1");
 
         /**
          * field for ServiceInfo
@@ -24039,7 +24039,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -24328,7 +24328,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AnyURI implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "anyURI", "ns3");
+                "anyURI", "ns2");
 
         /**
          * field for AnyURI
@@ -24416,7 +24416,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -24705,7 +24705,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _float implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "float", "ns3");
+                "float", "ns2");
 
         /**
          * field for _float
@@ -24792,7 +24792,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25085,7 +25085,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ProductInfoE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "ProductInfo", "ns2");
+                "ProductInfo", "ns1");
 
         /**
          * field for ProductInfo
@@ -25151,7 +25151,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25440,7 +25440,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedInt implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedInt", "ns3");
+                "unsignedInt", "ns2");
 
         /**
          * field for UnsignedInt
@@ -25529,7 +25529,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25819,7 +25819,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _long implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "long", "ns3");
+                "long", "ns2");
 
         /**
          * field for _long
@@ -25906,7 +25906,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -26199,7 +26199,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Duration implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "duration", "ns3");
+                "duration", "ns2");
 
         /**
          * field for Duration
@@ -26297,7 +26297,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -26601,7 +26601,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = BookProductRequest
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -27161,7 +27161,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -27719,7 +27719,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class BookResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "BookResponse", "ns2");
+                "BookResponse", "ns1");
 
         /**
          * field for BookResponse
@@ -27785,7 +27785,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -28076,7 +28076,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Passenger
            Namespace URI = http://bewotec.de/InsurancesService
-           Namespace Prefix = ns2
+           Namespace Prefix = ns1
          */
 
         /**
@@ -28479,7 +28479,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -28957,7 +28957,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class PaymentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "Payment", "ns2");
+                "Payment", "ns1");
 
         /**
          * field for Payment
@@ -29023,7 +29023,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -29312,7 +29312,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GuidE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "guid", "ns3");
+                "guid", "ns2");
 
         /**
          * field for Guid
@@ -29379,7 +29379,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -29666,7 +29666,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetProducts implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "GetProducts", "ns2");
+                "GetProducts", "ns1");
 
         /**
          * field for Request
@@ -29774,7 +29774,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -30089,7 +30089,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DurationE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "duration", "ns3");
+                "duration", "ns2");
 
         /**
          * field for Duration
@@ -30156,7 +30156,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -30445,7 +30445,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
 
     public static class BookProductResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/InsurancesService",
-                "BookProductResponse", "ns2");
+                "BookProductResponse", "ns1");
 
         /**
          * field for BookProductResult
@@ -30553,7 +30553,7 @@ public class InsurancesServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/InsurancesService")) {
-                return "ns2";
+                return "ns1";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();

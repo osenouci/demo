@@ -2602,7 +2602,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
     //http://192.150.150.228:8098/ContentService/ContentService.svc
     public static class ModificationTypeEnum implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ModificationTypeEnum", "ns4");
+                "ModificationTypeEnum", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _MoveUp = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "MoveUp");
@@ -2725,7 +2725,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3049,7 +3049,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ContentForAccommodationResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -3158,7 +3158,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3473,7 +3473,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _short implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "short", "ns3");
+                "short", "ns2");
 
         /**
          * field for _short
@@ -3560,7 +3560,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -3853,7 +3853,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class OffersResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "OffersResponse", "ns4");
+                "OffersResponse", "ns3");
 
         /**
          * field for OffersResponse
@@ -3919,7 +3919,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -4209,7 +4209,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AnyType implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "anyType", "ns3");
+                "anyType", "ns2");
 
         /**
          * field for AnyType
@@ -4302,7 +4302,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -4581,7 +4581,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class HolidayPeriodE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "HolidayPeriod", "ns4");
+                "HolidayPeriod", "ns3");
 
         /**
          * field for HolidayPeriod
@@ -4647,7 +4647,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -4937,7 +4937,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class HolidaysForFlightRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "HolidaysForFlightRequest", "ns4");
+                "HolidaysForFlightRequest", "ns3");
 
         /**
          * field for HolidaysForFlightRequest
@@ -5004,7 +5004,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -5294,7 +5294,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingUserReviewDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingUserReviewDetail", "ns4");
+                "RatingUserReviewDetail", "ns3");
 
         /**
          * field for RatingUserReviewDetail
@@ -5361,7 +5361,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -5651,7 +5651,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfRatingRankDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfRatingRankDetail", "ns4");
+                "ArrayOfRatingRankDetail", "ns3");
 
         /**
          * field for ArrayOfRatingRankDetail
@@ -5718,7 +5718,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -6010,7 +6010,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfRatingUserReview
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -6158,7 +6158,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -6518,7 +6518,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RatingRatingDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -6821,7 +6821,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -7246,7 +7246,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfFactAttribute
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -7394,7 +7394,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -7752,7 +7752,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfClimateEntryE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfClimateEntry", "ns4");
+                "ArrayOfClimateEntry", "ns3");
 
         /**
          * field for ArrayOfClimateEntry
@@ -7819,7 +7819,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -8109,7 +8109,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetHolidaysForFlight implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetHolidaysForFlight", "ns4");
+                "GetHolidaysForFlight", "ns3");
 
         /**
          * field for Request
@@ -8216,7 +8216,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -8533,7 +8533,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfClimateEntry
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -8681,7 +8681,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -9041,7 +9041,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfHolidayPeriod
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -9189,7 +9189,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -9547,7 +9547,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class SourceE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Source", "ns4");
+                "Source", "ns3");
 
         /**
          * field for Source
@@ -9613,7 +9613,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -10213,7 +10213,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Room
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -10467,7 +10467,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -10858,7 +10858,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetHolidaysForFlightNeighbourStatesResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetHolidaysForFlightNeighbourStatesResponse", "ns4");
+                "GetHolidaysForFlightNeighbourStatesResponse", "ns3");
 
         /**
          * field for GetHolidaysForFlightNeighbourStatesResult
@@ -10969,7 +10969,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -11286,7 +11286,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ModifyOffer implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ModifyOffer", "ns4");
+                "ModifyOffer", "ns3");
 
         /**
          * field for Request
@@ -11393,7 +11393,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -11708,7 +11708,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ImageE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Image", "ns4");
+                "Image", "ns3");
 
         /**
          * field for Image
@@ -11774,7 +11774,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -12061,7 +12061,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfSourceE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfSource", "ns4");
+                "ArrayOfSource", "ns3");
 
         /**
          * field for ArrayOfSource
@@ -12127,7 +12127,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -12417,7 +12417,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingContent", "ns4");
+                "RatingContent", "ns3");
 
         /**
          * field for RatingContent
@@ -12483,7 +12483,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -12773,7 +12773,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class CatalogE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Catalog", "ns4");
+                "Catalog", "ns3");
 
         /**
          * field for Catalog
@@ -12839,7 +12839,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -13128,7 +13128,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ContentForAccommodationRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ContentForAccommodationRequest", "ns4");
+                "ContentForAccommodationRequest", "ns3");
 
         /**
          * field for ContentForAccommodationRequest
@@ -13197,7 +13197,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -13489,7 +13489,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = HolidaysForFlightNeighbourStatesResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -13794,7 +13794,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -14214,7 +14214,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingRankDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingRankDetail", "ns4");
+                "RatingRankDetail", "ns3");
 
         /**
          * field for RatingRankDetail
@@ -14280,7 +14280,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -14572,7 +14572,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ImageContainer
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -14778,7 +14778,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -15144,7 +15144,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Source implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Source", "ns4");
+                "Source", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _Provider = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "Provider");
@@ -15244,7 +15244,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -15563,7 +15563,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfContent", "ns4");
+                "ArrayOfContent", "ns3");
 
         /**
          * field for ArrayOfContent
@@ -15629,7 +15629,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -15919,7 +15919,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnitE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Unit", "ns4");
+                "Unit", "ns3");
 
         /**
          * field for Unit
@@ -15985,7 +15985,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -16272,7 +16272,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DetailLevelEnum implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "DetailLevelEnum", "ns4");
+                "DetailLevelEnum", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _Full = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "Full");
@@ -16375,7 +16375,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -16697,7 +16697,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class QName implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "QName", "ns3");
+                "QName", "ns2");
 
         /**
          * field for QName
@@ -16784,7 +16784,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -17082,7 +17082,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedLong implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedLong", "ns3");
+                "unsignedLong", "ns2");
 
         /**
          * field for UnsignedLong
@@ -17171,7 +17171,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -17461,7 +17461,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfHolidayPeriodE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfHolidayPeriod", "ns4");
+                "ArrayOfHolidayPeriod", "ns3");
 
         /**
          * field for ArrayOfHolidayPeriod
@@ -17528,7 +17528,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -17820,7 +17820,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = HolidayPeriod
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -18025,7 +18025,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -18395,7 +18395,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfSource
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -18529,7 +18529,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -18869,7 +18869,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = BaseRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -19074,7 +19074,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -19442,7 +19442,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfRatingRatingDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -19591,7 +19591,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -19949,7 +19949,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingRatingDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingRatingDetail", "ns4");
+                "RatingRatingDetail", "ns3");
 
         /**
          * field for RatingRatingDetail
@@ -20016,7 +20016,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -20306,7 +20306,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetHolidaysForFlightResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetHolidaysForFlightResponse", "ns4");
+                "GetHolidaysForFlightResponse", "ns3");
 
         /**
          * field for GetHolidaysForFlightResult
@@ -20415,7 +20415,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -20733,7 +20733,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = AccommodationContent
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -21533,7 +21533,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -22213,7 +22213,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class InsuranceProviderEnum implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "InsuranceProviderEnum", "ns4");
+                "InsuranceProviderEnum", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _None = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "None");
@@ -22320,7 +22320,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -22645,7 +22645,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = OffersResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -22753,7 +22753,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -23068,7 +23068,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfRatingUserReviewE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfRatingUserReview", "ns4");
+                "ArrayOfRatingUserReview", "ns3");
 
         /**
          * field for ArrayOfRatingUserReview
@@ -23135,7 +23135,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -23427,7 +23427,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfIdentifier
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -23575,7 +23575,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -23933,7 +23933,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ContentProviderEnumE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ContentProviderEnum", "ns4");
+                "ContentProviderEnum", "ns3");
 
         /**
          * field for ContentProviderEnum
@@ -24000,7 +24000,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -24292,7 +24292,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Content
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -24647,7 +24647,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25092,7 +25092,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class CreateOffer implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "CreateOffer", "ns4");
+                "CreateOffer", "ns3");
 
         /**
          * field for Request
@@ -25199,7 +25199,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25514,7 +25514,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _double implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "double", "ns3");
+                "double", "ns2");
 
         /**
          * field for _double
@@ -25601,7 +25601,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -25894,7 +25894,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GeoDataE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GeoData", "ns4");
+                "GeoData", "ns3");
 
         /**
          * field for GeoData
@@ -25960,7 +25960,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -26251,7 +26251,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfRatingRankDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -26399,7 +26399,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -26757,7 +26757,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Guid implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "guid", "ns3");
+                "guid", "ns2");
 
         /**
          * field for Guid
@@ -26853,7 +26853,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -27154,7 +27154,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _byte implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "byte", "ns3");
+                "byte", "ns2");
 
         /**
          * field for _byte
@@ -27241,7 +27241,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -27536,7 +27536,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Catalog
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -27940,7 +27940,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -28417,7 +28417,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Fact
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -28673,7 +28673,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -29069,7 +29069,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetOffers implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetOffers", "ns4");
+                "GetOffers", "ns3");
 
         /**
          * field for Request
@@ -29176,7 +29176,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -29490,7 +29490,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ImageContainerE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ImageContainer", "ns4");
+                "ImageContainer", "ns3");
 
         /**
          * field for ImageContainer
@@ -29556,7 +29556,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -29846,7 +29846,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AvailableValuesResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "AvailableValuesResponse", "ns4");
+                "AvailableValuesResponse", "ns3");
 
         /**
          * field for AvailableValuesResponse
@@ -29913,7 +29913,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -30203,7 +30203,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _boolean implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "boolean", "ns3");
+                "boolean", "ns2");
 
         /**
          * field for _boolean
@@ -30290,7 +30290,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -30580,7 +30580,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class CreateOfferRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "CreateOfferRequest", "ns4");
+                "CreateOfferRequest", "ns3");
 
         /**
          * field for CreateOfferRequest
@@ -30647,7 +30647,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -30937,7 +30937,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfFactAttributeE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfFactAttribute", "ns4");
+                "ArrayOfFactAttribute", "ns3");
 
         /**
          * field for ArrayOfFactAttribute
@@ -31004,7 +31004,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -31296,7 +31296,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = AvailableValuesAccommodationContent
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -31443,7 +31443,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -31767,7 +31767,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ContentForAccommodationRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -31966,7 +31966,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -32376,7 +32376,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
     public static class ArrayOfHolidaysForFlightNeighbourStatesResponseE
         implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfHolidaysForFlightNeighbourStatesResponse", "ns4");
+                "ArrayOfHolidaysForFlightNeighbourStatesResponse", "ns3");
 
         /**
          * field for ArrayOfHolidaysForFlightNeighbourStatesResponse
@@ -32445,7 +32445,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -32737,7 +32737,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Identifier
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -33042,7 +33042,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -33460,7 +33460,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetAvailableValues implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetAvailableValues", "ns4");
+                "GetAvailableValues", "ns3");
 
         /**
          * field for Request
@@ -33567,7 +33567,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -33882,7 +33882,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _float implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "float", "ns3");
+                "float", "ns2");
 
         /**
          * field for _float
@@ -33969,7 +33969,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -34262,7 +34262,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingProviderEnumE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingProviderEnum", "ns4");
+                "RatingProviderEnum", "ns3");
 
         /**
          * field for RatingProviderEnum
@@ -34329,7 +34329,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -34621,7 +34621,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = OfferEntry
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -35562,7 +35562,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -36334,7 +36334,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RatingUserReviewDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -36490,7 +36490,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -36832,7 +36832,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RatingRankDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -37037,7 +37037,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -37407,7 +37407,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Duration implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "duration", "ns3");
+                "duration", "ns2");
 
         /**
          * field for Duration
@@ -37505,7 +37505,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -37807,7 +37807,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetContentForAccommodation implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetContentForAccommodation", "ns4");
+                "GetContentForAccommodation", "ns3");
 
         /**
          * field for Request
@@ -37915,7 +37915,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -38230,7 +38230,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Unit implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Unit", "ns4");
+                "Unit", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _Hour = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "Hour");
@@ -38333,7 +38333,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -38654,7 +38654,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfFact
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -38802,7 +38802,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -39158,7 +39158,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfImageContainerE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfImageContainer", "ns4");
+                "ArrayOfImageContainer", "ns3");
 
         /**
          * field for ArrayOfImageContainer
@@ -39225,7 +39225,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -39515,7 +39515,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfFactGroupE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfFactGroup", "ns4");
+                "ArrayOfFactGroup", "ns3");
 
         /**
          * field for ArrayOfFactGroup
@@ -39581,7 +39581,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -39871,7 +39871,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GuidE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "guid", "ns3");
+                "guid", "ns2");
 
         /**
          * field for Guid
@@ -39938,7 +39938,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -40227,7 +40227,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfContent
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -40375,7 +40375,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -40731,7 +40731,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ContentForAccommodationResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ContentForAccommodationResponse", "ns4");
+                "ContentForAccommodationResponse", "ns3");
 
         /**
          * field for ContentForAccommodationResponse
@@ -40800,7 +40800,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -41090,7 +41090,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DurationE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "duration", "ns3");
+                "duration", "ns2");
 
         /**
          * field for Duration
@@ -41157,7 +41157,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -41448,7 +41448,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = CreateOfferRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -41601,7 +41601,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -41993,7 +41993,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AvailableValuesRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "AvailableValuesRequest", "ns4");
+                "AvailableValuesRequest", "ns3");
 
         /**
          * field for AvailableValuesRequest
@@ -42060,7 +42060,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -42350,7 +42350,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ModifyOfferRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ModifyOfferRequest", "ns4");
+                "ModifyOfferRequest", "ns3");
 
         /**
          * field for ModifyOfferRequest
@@ -42417,7 +42417,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -42709,7 +42709,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = HolidaysForFlightRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -42914,7 +42914,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -43282,7 +43282,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class HolidaysForFlightResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "HolidaysForFlightResponse", "ns4");
+                "HolidaysForFlightResponse", "ns3");
 
         /**
          * field for HolidaysForFlightResponse
@@ -43350,7 +43350,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -43640,7 +43640,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ContentProviderEnum implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ContentProviderEnum", "ns4");
+                "ContentProviderEnum", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _Undefined = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "Undefined");
@@ -43747,7 +43747,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -44069,7 +44069,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedShort implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedShort", "ns3");
+                "unsignedShort", "ns2");
 
         /**
          * field for UnsignedShort
@@ -44158,7 +44158,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -44449,7 +44449,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _char implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "char", "ns3");
+                "char", "ns2");
 
         /**
          * field for _char
@@ -44539,7 +44539,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -44842,7 +44842,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfRatingUserReviewDetail
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -44993,7 +44993,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -45353,7 +45353,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class BaseRequestE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "BaseRequest", "ns4");
+                "BaseRequest", "ns3");
 
         /**
          * field for BaseRequest
@@ -45419,7 +45419,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -45708,7 +45708,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ClimateYearContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ClimateYearContent", "ns4");
+                "ClimateYearContent", "ns3");
 
         /**
          * field for ClimateYearContent
@@ -45775,7 +45775,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -46067,7 +46067,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = FactGroup
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -46273,7 +46273,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -46642,7 +46642,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingUserReviewE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingUserReview", "ns4");
+                "RatingUserReview", "ns3");
 
         /**
          * field for RatingUserReview
@@ -46708,7 +46708,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -47000,7 +47000,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfFactGroup
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -47148,7 +47148,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -47506,7 +47506,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class IdentifierE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Identifier", "ns4");
+                "Identifier", "ns3");
 
         /**
          * field for Identifier
@@ -47572,7 +47572,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -47861,7 +47861,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfRoomE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfRoom", "ns4");
+                "ArrayOfRoom", "ns3");
 
         /**
          * field for ArrayOfRoom
@@ -47927,7 +47927,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -48218,7 +48218,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = AvailableValuesRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -48322,7 +48322,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -48688,7 +48688,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfFactE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfFact", "ns4");
+                "ArrayOfFact", "ns3");
 
         /**
          * field for ArrayOfFact
@@ -48754,7 +48754,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -49045,7 +49045,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfImageContainer
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -49193,7 +49193,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -49551,7 +49551,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class InsuranceProviderEnumE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "InsuranceProviderEnum", "ns4");
+                "InsuranceProviderEnum", "ns3");
 
         /**
          * field for InsuranceProviderEnum
@@ -49618,7 +49618,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -49910,7 +49910,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = FactAttribute
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -50165,7 +50165,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -50560,7 +50560,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ClimateEntryE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ClimateEntry", "ns4");
+                "ClimateEntry", "ns3");
 
         /**
          * field for ClimateEntry
@@ -50626,7 +50626,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -50915,7 +50915,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfIdentifierE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfIdentifier", "ns4");
+                "ArrayOfIdentifier", "ns3");
 
         /**
          * field for ArrayOfIdentifier
@@ -50982,7 +50982,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -51272,7 +51272,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetAvailableValuesResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetAvailableValuesResponse", "ns4");
+                "GetAvailableValuesResponse", "ns3");
 
         /**
          * field for GetAvailableValuesResult
@@ -51380,7 +51380,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -51699,7 +51699,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfHolidaysForFlightNeighbourStatesResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -51859,7 +51859,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -52221,7 +52221,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class FactGroupE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "FactGroup", "ns4");
+                "FactGroup", "ns3");
 
         /**
          * field for FactGroup
@@ -52287,7 +52287,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -52576,7 +52576,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfRatingRatingDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfRatingRatingDetail", "ns4");
+                "ArrayOfRatingRatingDetail", "ns3");
 
         /**
          * field for ArrayOfRatingRatingDetail
@@ -52644,7 +52644,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -52934,7 +52934,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AvailableValuesAccommodationContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "AvailableValuesAccommodationContent", "ns4");
+                "AvailableValuesAccommodationContent", "ns3");
 
         /**
          * field for AvailableValuesAccommodationContent
@@ -53003,7 +53003,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -53293,7 +53293,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfRatingUserReviewDetailE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfRatingUserReviewDetail", "ns4");
+                "ArrayOfRatingUserReviewDetail", "ns3");
 
         /**
          * field for ArrayOfRatingUserReviewDetail
@@ -53361,7 +53361,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -53651,7 +53651,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _charE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "char", "ns3");
+                "char", "ns2");
 
         /**
          * field for _char
@@ -53718,7 +53718,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -54007,7 +54007,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ClimateEntry
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -54310,7 +54310,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -54743,7 +54743,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class FactAttributeE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "FactAttribute", "ns4");
+                "FactAttribute", "ns3");
 
         /**
          * field for FactAttribute
@@ -54809,7 +54809,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -55099,7 +55099,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ModifyOfferResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ModifyOfferResponse", "ns4");
+                "ModifyOfferResponse", "ns3");
 
         /**
          * field for ModifyOfferResult
@@ -55206,7 +55206,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -55520,7 +55520,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetHolidaysForFlightNeighbourStates implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetHolidaysForFlightNeighbourStates", "ns4");
+                "GetHolidaysForFlightNeighbourStates", "ns3");
 
         /**
          * field for Request
@@ -55628,7 +55628,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -55946,7 +55946,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = AvailableValuesResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -56099,7 +56099,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -56430,7 +56430,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class HolidaysForFlightNeighbourStatesResponseE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "HolidaysForFlightNeighbourStatesResponse", "ns4");
+                "HolidaysForFlightNeighbourStatesResponse", "ns3");
 
         /**
          * field for HolidaysForFlightNeighbourStatesResponse
@@ -56499,7 +56499,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -56789,7 +56789,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedByte implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedByte", "ns3");
+                "unsignedByte", "ns2");
 
         /**
          * field for UnsignedByte
@@ -56878,7 +56878,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -57170,7 +57170,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ModifyOfferRequest
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -57367,7 +57367,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -57775,7 +57775,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AccommodationContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "AccommodationContent", "ns4");
+                "AccommodationContent", "ns3");
 
         /**
          * field for AccommodationContent
@@ -57842,7 +57842,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -58134,7 +58134,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfOfferEntry
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -58282,7 +58282,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -58640,7 +58640,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _int implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "int", "ns3");
+                "int", "ns2");
 
         /**
          * field for _int
@@ -58727,7 +58727,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -59020,7 +59020,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfOfferEntryE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfOfferEntry", "ns4");
+                "ArrayOfOfferEntry", "ns3");
 
         /**
          * field for ArrayOfOfferEntry
@@ -59087,7 +59087,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -59377,7 +59377,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class FactE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Fact", "ns4");
+                "Fact", "ns3");
 
         /**
          * field for Fact
@@ -59443,7 +59443,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -59732,7 +59732,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = HolidaysForFlightResponse
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -60135,7 +60135,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -60606,7 +60606,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Decimal implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "decimal", "ns3");
+                "decimal", "ns2");
 
         /**
          * field for Decimal
@@ -60694,7 +60694,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -60985,7 +60985,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = StandardFault
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -61078,7 +61078,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -61395,7 +61395,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class String implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "string", "ns3");
+                "string", "ns2");
 
         /**
          * field for String
@@ -61482,7 +61482,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -61771,7 +61771,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DateTime implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "dateTime", "ns3");
+                "dateTime", "ns2");
 
         /**
          * field for DateTime
@@ -61859,7 +61859,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -62149,7 +62149,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class Base64Binary implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "base64Binary", "ns3");
+                "base64Binary", "ns2");
 
         /**
          * field for Base64Binary
@@ -62244,7 +62244,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -62535,7 +62535,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfImage
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -62683,7 +62683,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -63039,7 +63039,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class CreateOfferResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "CreateOfferResponse", "ns4");
+                "CreateOfferResponse", "ns3");
 
         /**
          * field for CreateOfferResult
@@ -63146,7 +63146,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -63462,7 +63462,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ArrayOfRoom
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -63610,7 +63610,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -63966,7 +63966,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RoomE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Room", "ns4");
+                "Room", "ns3");
 
         /**
          * field for Room
@@ -64032,7 +64032,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -64319,7 +64319,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class RatingProviderEnum implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "RatingProviderEnum", "ns4");
+                "RatingProviderEnum", "ns3");
         private static java.util.HashMap _table_ = new java.util.HashMap();
         public static final java.lang.String _Undefined = org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                 "Undefined");
@@ -64426,7 +64426,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -64748,7 +64748,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class StandardFaultE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "StandardFault", "ns4");
+                "StandardFault", "ns3");
 
         /**
          * field for StandardFault
@@ -64814,7 +64814,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -65104,7 +65104,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class AnyURI implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "anyURI", "ns3");
+                "anyURI", "ns2");
 
         /**
          * field for AnyURI
@@ -65192,7 +65192,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -65481,7 +65481,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class UnsignedInt implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "unsignedInt", "ns3");
+                "unsignedInt", "ns2");
 
         /**
          * field for UnsignedInt
@@ -65570,7 +65570,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -65860,7 +65860,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class _long implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://schemas.microsoft.com/2003/10/Serialization/",
-                "long", "ns3");
+                "long", "ns2");
 
         /**
          * field for _long
@@ -65947,7 +65947,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace) {
             if (namespace.equals(
                         "http://schemas.microsoft.com/2003/10/Serialization/")) {
-                return "ns3";
+                return "ns2";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -66240,7 +66240,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class OfferEntryE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "OfferEntry", "ns4");
+                "OfferEntry", "ns3");
 
         /**
          * field for OfferEntry
@@ -66306,7 +66306,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -66595,7 +66595,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class DetailLevelEnumE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "DetailLevelEnum", "ns4");
+                "DetailLevelEnum", "ns3");
 
         /**
          * field for DetailLevelEnum
@@ -66661,7 +66661,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -66953,7 +66953,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = GeoData
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -67158,7 +67158,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -67523,7 +67523,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetContentForAccommodationResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetContentForAccommodationResponse", "ns4");
+                "GetContentForAccommodationResponse", "ns3");
 
         /**
          * field for GetContentForAccommodationResult
@@ -67632,7 +67632,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -67949,7 +67949,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ModificationTypeEnumE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ModificationTypeEnum", "ns4");
+                "ModificationTypeEnum", "ns3");
 
         /**
          * field for ModificationTypeEnum
@@ -68016,7 +68016,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -68306,7 +68306,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class GetOffersResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "GetOffersResponse", "ns4");
+                "GetOffersResponse", "ns3");
 
         /**
          * field for GetOffersResult
@@ -68413,7 +68413,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -68730,7 +68730,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = Image
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -68984,7 +68984,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -69384,7 +69384,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RatingUserReview
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -69934,7 +69934,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -70491,7 +70491,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = ClimateYearContent
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -70599,7 +70599,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -70914,7 +70914,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ArrayOfImageE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "ArrayOfImage", "ns4");
+                "ArrayOfImage", "ns3");
 
         /**
          * field for ArrayOfImage
@@ -70980,7 +70980,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -71269,7 +71269,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
 
     public static class ContentE implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://bewotec.de/ContentService",
-                "Content", "ns4");
+                "Content", "ns3");
 
         /**
          * field for Content
@@ -71335,7 +71335,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -71626,7 +71626,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         /* This type was generated from the piece of schema that had
            name = RatingContent
            Namespace URI = http://bewotec.de/ContentService
-           Namespace Prefix = ns4
+           Namespace Prefix = ns3
          */
 
         /**
@@ -72275,7 +72275,7 @@ public class ContentServiceStub extends org.apache.axis2.client.Stub {
         private static java.lang.String generatePrefix(
             java.lang.String namespace) {
             if (namespace.equals("http://bewotec.de/ContentService")) {
-                return "ns4";
+                return "ns3";
             }
 
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();

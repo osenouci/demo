@@ -8,8 +8,8 @@ package de.bewotec.service;
 
 public class BewotecHubService_GetProductList_GenericFaultFault_FaultMessage
     extends java.lang.Exception {
-    private static final long serialVersionUID = 1578912968138L;
-    private de.bewotec.www.bewotecws.schema.GenericFault faultMessage;
+    private static final long serialVersionUID = 1578925973333L;
+    private de.bewotec.bewotecws.schema.GenericFaultType faultMessage;
 
     public BewotecHubService_GetProductList_GenericFaultFault_FaultMessage() {
         super("BewotecHubService_GetProductList_GenericFaultFault_FaultMessage");
@@ -31,11 +31,11 @@ public class BewotecHubService_GetProductList_GenericFaultFault_FaultMessage
     }
 
     public void setFaultMessage(
-        de.bewotec.www.bewotecws.schema.GenericFault msg) {
+        de.bewotec.bewotecws.schema.GenericFaultType msg) {
         faultMessage = msg;
     }
 
-    public de.bewotec.www.bewotecws.schema.GenericFault getFaultMessage() {
+    public de.bewotec.bewotecws.schema.GenericFaultType getFaultMessage() {
         return faultMessage;
     }
 }
