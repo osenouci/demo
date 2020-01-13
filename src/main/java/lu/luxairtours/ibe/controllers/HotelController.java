@@ -20,7 +20,11 @@ import org.springframework.http.MediaType;
 public class HotelController {
 
 	private static final Logger log = LoggerFactory.getLogger(HotelController.class);
-	private static final HotelService hotelService = new HotelService(); 
+	private HotelService hotelService; 
+	
+	HotelController(HotelService hotelService) {
+		this.hotelService = hotelService;
+	}
 	
 	@RequestMapping(path = "/hotels", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
 	public GetAvailableValuesResponse getHotelList(@Valid HotelListPayload payload) throws Exception {
