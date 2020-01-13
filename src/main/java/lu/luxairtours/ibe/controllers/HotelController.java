@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import lu.luxairtours.ibe.controllers.payload.HotelListPayload;
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
@@ -14,19 +17,15 @@ public class HotelController {
 
 	private static final Logger log = LoggerFactory.getLogger(HotelController.class);
 	
-	
 	@RequestMapping(path = "/hotels", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
-	public String getHotelList(@RequestParam(name = "lang", required=false, defaultValue = "fr") String lang) {
-//		JSONObject res = client.getHotels(lang);
-//		return res.toString();
-		
-		return "";
+	public String getHotelList(@Valid HotelListPayload payload) {
+		return payload.getLang();
 	}
 	
 	@RequestMapping(path="/hotels/{hotelCode}")
-	public String getHotelInfo(@PathVariable("hotelCode") String hotelCode, @RequestParam(name = "lang", required=false, defaultValue = "fr") String lang) throws Exception {
+	public String getHotelInfo(@PathVariable("hotelCode") String hotelCode, @RequestParam(name = "lang", required=false, defaultValue = "fr")String lang) throws Exception {
 //		return client.getHotelInformation(hotelCode, lang);
-		return "";
+		return lang;
 	}
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET, produces=MediaType.APPLICATION_XML_VALUE)

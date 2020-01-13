@@ -11,7 +11,7 @@ import javax.validation.Payload;
 
 @Documented
 @Constraint(validatedBy = LanguageValidator.class)
-@Target( { ElementType.METHOD, ElementType.FIELD })
+@Target({ ElementType.METHOD, ElementType.FIELD })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface LanguageConstraint {
     String message() default "Invalid language";

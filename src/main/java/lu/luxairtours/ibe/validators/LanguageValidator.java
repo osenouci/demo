@@ -18,7 +18,8 @@ ConstraintValidator<LanguageConstraint, String> {
 	@Override
     public boolean isValid(String languageField,
       ConstraintValidatorContext cxt) {
-		return supportedLanguages.contains(languageField.toLowerCase());
+		return languageField == null ? false :
+		supportedLanguages.contains(languageField.toLowerCase());
     }
 	
 }
