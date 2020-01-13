@@ -118,7 +118,7 @@
 							<wsdlFile>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl
 							</wsdlFile>
 							<databindingName>adb</databindingName>
-							<flattenFiles>true</flattenFiles>
+							<flattenFiles>false</flattenFiles>
 							<outputDirectory>src/main/java</outputDirectory>
 						</configuration>
 					</execution>
