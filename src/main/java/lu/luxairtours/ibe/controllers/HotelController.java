@@ -11,6 +11,9 @@ import de.bewotec.content.ContentServiceStub.GetContentForAccommodationResponse;
 import lu.luxairtours.ibe.controllers.payload.HotelInfoPayload;
 import lu.luxairtours.ibe.controllers.payload.HotelListPayload;
 import lu.luxairtours.ibe.services.HotelService;
+import lu.luxairtours.ibe.services.mapping.HotelDto;
+
+import java.util.List;
 
 import javax.validation.Valid;
 
@@ -27,9 +30,9 @@ public class HotelController {
 	HotelController(HotelService hotelService) {
 		this.hotelService = hotelService;
 	}
-
+	// APPLICATION_JSON_VALUE
 	@RequestMapping(path = "/hotels", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-	public GetAvailableValuesResponse getHotelList(@Valid HotelListPayload payload) throws Exception {
+	public List<HotelDto> getHotelList(@Valid HotelListPayload payload) throws Exception {
 		return hotelService.getHotelList(payload.getLang());
 	}
 

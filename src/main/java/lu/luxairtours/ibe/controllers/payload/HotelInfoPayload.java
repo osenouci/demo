@@ -9,7 +9,6 @@ import lombok.Setter;
 import lu.luxairtours.ibe.validators.LanguageConstraint;
 import lu.luxairtours.ibe.validators.DateConstraint;
 
-
 public class HotelInfoPayload {
 
 	private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
