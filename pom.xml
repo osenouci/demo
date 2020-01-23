@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>gs-spring-boot</artifactId>
+	<artifactId>gs-spring-boot-docker</artifactId>
 	<version>0.1.0</version>
 
 	<parent>
@@ -99,12 +99,16 @@
 				<groupId>org.apache.axis2</groupId>
 				<artifactId>axis2-wsdl2code-maven-plugin</artifactId>
 				<version>${axis2.version}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 				<executions>
 					<execution>
 						<id>wsdl-serviceHub</id>
 						<goals>
 							<goal>wsdl2code</goal>
 						</goals>
+						<phase>none</phase>
 						<configuration>
 							<packageName>de.bewotec.service</packageName>
 							<wsdlFile>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl
@@ -112,6 +116,17 @@
 							<databindingName>jaxbri</databindingName>
 							<outputDirectory>src/main/java</outputDirectory>
 							<flattenFiles>true</flattenFiles>
+							<overWrite>true</overWrite>
+							<suppressPrefixes>true</suppressPrefixes>
+							<!-- -->
+							<namespaceToPackages>http://www.bewotec.de/bewotecws/Schema=de.bewotec.bewotecws.schema</namespaceToPackages>
+							<namespaceURIs>
+								<namespaceURI>
+									<uri>http://www.bewotec.de/bewotecws/Schema</uri>
+									<packageName>de.bewotec.bewotecws.schema</packageName>
+								</namespaceURI>
+							</namespaceURIs>
+
 						</configuration>
 					</execution>
 					<execution>
@@ -119,6 +134,7 @@
 						<goals>
 							<goal>wsdl2code</goal>
 						</goals>
+						<phase>none</phase>
 						<configuration>
 							<packageName>de.bewotec.insurance</packageName>
 							<wsdlFile>http://192.150.150.228:8073/InsurancesService/InsurancesService.svc?wsdl
@@ -126,6 +142,7 @@
 							<databindingName>adb</databindingName>
 							<flattenFiles>true</flattenFiles>
 							<outputDirectory>src/main/java</outputDirectory>
+							<overWrite>true</overWrite>
 						</configuration>
 					</execution>
 					<execution>
@@ -133,6 +150,7 @@
 						<goals>
 							<goal>wsdl2code</goal>
 						</goals>
+						<phase>none</phase>
 						<configuration>
 							<packageName>de.bewotec.content</packageName>
 							<wsdlFile>http://192.150.150.228:8098/ContentService/ContentService.svc?wsdl
@@ -140,6 +158,7 @@
 							<databindingName>adb</databindingName>
 							<flattenFiles>true</flattenFiles>
 							<outputDirectory>src/main/java</outputDirectory>
+							<overWrite>true</overWrite>
 						</configuration>
 					</execution>
 				</executions>
