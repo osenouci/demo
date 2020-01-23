@@ -28,6 +28,9 @@ public class ProductService {
 	
 		GetProductAvailability container = new GetProductAvailability();
 		
+		// products?dateFrom=2020-01-22&dateTo=2021-01-17&departureAirports=LUX&durationend=8&
+		// durationstart=5&passengers=30,30&sortBy=Priority&sortOrder=desc&resultsFrom=10&lang=en
+		
 		this.service.getProductAvailability(container);
 	}
 	
