@@ -1,0 +1,8 @@
+* How to publish an image to luxair registry: 
+
+1. Login
+docker login registry.in.luxair.lu
+2. Tag an existing image if it has not been already tagged
+docker tag 419a5637b0aa registry.in.luxair.lu/osenouci/tavel-ibe-api
+3. Push the image
+docker push registry.in.luxair.lu/osenouci/tavel-ibe-api
