@@ -1,0 +1,11 @@
+// Create deployment from file
+kubectl create -f api-deployment.yaml
+
+// Create service from file
+kubectl apply -f api-service.yaml
+
+// Start the dashboard
+minikube dashboard
+
+// get the url of the service
+minikube service travel-ibe-service --ur
