@@ -139,3 +139,19 @@ To re-generate the stubs run the command
 The sub regeneration has been disabled for the time being as they don't need to be regnerate with every build. This has been done by adding the following xml tag to the pom file's execusion tags:
 
     <phase>none</phase>
+
+## Compile the project from the command line
+To clean up the project run 
+
+    ./mvnw clean
+
+To compile the project run 
+
+    ./mvnw compile
+
+To package the application 
+
+    ./mvnw package 
+Once the application has been package then we can run it from the command line using the following command
+
+    java -jar target\gs-spring-boot-docker-0.1.0.jar
