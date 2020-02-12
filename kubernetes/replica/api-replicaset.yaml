@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: travel-ibe-api-replica
+  labels:
+    app: travel-ibe-api-replica
+  #   tier: travel-ibe-api-replica
+spec:
+  # modify replicas according to your case
+  replicas: 4
+  selector:
+    matchLabels:
+      app: travel-ibe-api-replica
+  template:
+    metadata:
+      labels:
+        app: travel-ibe-api-replica
+    spec:
+      containers:
+      - name: tavel-ibe-api
+        image: registry.in.luxair.lu/osenouci/tavel-ibe-api
+        ports:
+        - containerPort: 8088
+      imagePullSecrets:
+      - name: myregistrykey

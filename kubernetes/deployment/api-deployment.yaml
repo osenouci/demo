@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: travel-ibe-api
+  template:
+    metadata:
+      labels:
+        app: travel-ibe-api
+    spec:
+      containers:
+      - name: travel-ibe-api-container
+        image: registry.in.luxair.lu/osenouci/tavel-ibe-api
+        ports:
+        - containerPort: 8088
+      imagePullSecrets:
+      - name: myregistrykey

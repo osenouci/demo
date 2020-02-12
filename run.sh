@@ -1,1 +1,0 @@
-docker run -p 8080:8080 -t registry.in.luxair.lu/osenouci/tavel-ibe-api
