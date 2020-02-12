@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: travel-ibe-service
+spec:
+  type: NodePort
+  selector:
+    app: travel-ibe-api-replica
+  ports:
+  - name: travel-ibe-service
+    protocol: TCP
+    port: 8088
+    targetPort: 8088
