@@ -155,3 +155,32 @@ To package the application
 Once the application has been package then we can run it from the command line using the following command
 
     java -jar target\gs-spring-boot-docker-0.1.0.jar
+
+## Package the project as an image and push it to the Luxair registry
+Luxair uses Portus as a registry for private images that we don't want to expose to the public. The portal can be accessed using the url [https://registry.in.luxair.lu](https://registry.in.luxair.lu/).
+
+In order to package our application as a docker image the following steps are to be followed
+1. Add the luxair registry to your docker registry list which is done by issuing the command here below. You will be asked to authenticate using your Luxair credentials.
+
+        docker login registry.in.luxair.lu
+
+2. Package the project and an image out of it
+    
+        mvn clean && mvn package && docker build --tag registry.in.luxair.lu/osenouci/tavel-ibe-api:latest .
+
+The following DockerFile has been added to the project to make this possible
+
+    FROM openjdk:8-jdk-alpine
+    RUN addgroup -S spring && adduser -S spring -G spring
+    USER spring:spring
+    ARG JAR_FILE=target/*.jar
+    COPY ${JAR_FILE} app.jar
+    ENTRYPOINT ["java","-jar","/app.jar"]
+
+3. If the image has not been tagged correcty because of a typo then the image can be tagged again using the command
+   
+       Docker tag IMAGE_ID registry.in.luxair.lu/osenouci/tavel-ibe-api:latest
+
+4. Push the image to luxair regify 
+   
+       Docker push registry.in.luxair.lu/osenouci/tavel-ibe-api:latest
