@@ -184,3 +184,14 @@ The following DockerFile has been added to the project to make this possible
 4. Push the image to luxair regify 
    
        Docker push registry.in.luxair.lu/osenouci/tavel-ibe-api:latest
+
+## Deploy the project to minikube
+
+Please only continue with reading section, if you already have minikube installed locally. The internet of full of tutorials showing how to install minikube locally.
+
+1. Make sure that minikube is running, if not then issue the `minikube start` command.
+2. Deploy the application using the deployment file `kubectl create -f api-deployment.yaml`
+3. Deploy the service file using the service file `kubectl apply -f api-service.yaml`
+4. To obtain the url of the service execute the command `minikube service travel-ibe-service --url`
+5. That should return an ip address that you can use to access the API in browser Postman
+6. Optionally, you can verify the status of the deployment using the dashboad by running the command `minikube dashboard`
