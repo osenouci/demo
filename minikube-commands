@@ -1,3 +1,6 @@
+// Since we are using a private registry we need to login to using
+docker login REGISTRY_URL
+
 // Create deployment from file
 kubectl create -f api-deployment.yaml
 
@@ -8,4 +11,4 @@ kubectl apply -f api-service.yaml
 minikube dashboard
 
 // get the url of the service
-minikube service travel-ibe-service --ur
+minikube service travel-ibe-service --url
