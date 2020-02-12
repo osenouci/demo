@@ -195,3 +195,15 @@ Please only continue with reading section, if you already have minikube installe
 4. To obtain the url of the service execute the command `minikube service travel-ibe-service --url`
 5. That should return an ip address that you can use to access the API in browser Postman
 6. Optionally, you can verify the status of the deployment using the dashboad by running the command `minikube dashboard`
+
+### Minikube cannot retrieve the image from Luxair's private registry
+1. If minikube is installed on virtual box then ssh to the machine and use
+   1. `docker` as a username
+   2. `tcuser` as a password
+2. Login to Luxair's registry to make the docker aware of it
+   
+        docker login registry.in.luxair.lu
+
+3. Try to pull the image to see if the registry has been added correctly.
+   
+        docker pull registry.in.luxair.lu/osenouci/tavel-ibe-api:latest
