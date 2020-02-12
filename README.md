@@ -49,3 +49,93 @@ Never write another getter or equals method again, with one annotation your clas
    
    > http://localhost:8088/hotels
 
+
+###  Generate bewotec stubs from wsdl files
+Bewotec provides 3 soap services that this project consumes. The services are the following
+1. Service hub `http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl`
+2. Insurances service `http://192.150.150.228:8073/InsurancesService/InsurancesService.svc?wsdl`
+3. Content service `http://192.150.150.228:8098/ContentService/ContentService.svc?wsdl`
+
+We are using AXIS2 Web Services library to generate the subs from the wsdl files. This is done by configuring the Axis2 plugin as follows in the project's pom.xml file:
+
+    <plugin>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
+        <version>${axis2.version}</version>
+        <configuration>
+            <skip>true</skip>
+        </configuration>
+        <executions>
+            <execution>
+                <id>wsdl-serviceHub</id>
+                <goals>
+                    <goal>wsdl2code</goal>
+                </goals>
+                <phase>none</phase>
+                <configuration>
+                    <packageName>de.bewotec.service</packageName>
+                    <wsdlFile>http://lux.hub.bewotec.de:6158/Bewo.Hub.Service/BewotecHubService.wsdl
+                    </wsdlFile>
+                    <databindingName>jaxbri</databindingName>
+                    <outputDirectory>src/main/java</outputDirectory>
+                    <flattenFiles>true</flattenFiles>
+                    <overWrite>true</overWrite>
+                    <suppressPrefixes>true</suppressPrefixes>
+                    <!-- -->
+                    <namespaceToPackages>http://www.bewotec.de/bewotecws/Schema=de.bewotec.bewotecws.schema</namespaceToPackages>
+                    <namespaceURIs>
+                        <namespaceURI>
+                            <uri>http://www.bewotec.de/bewotecws/Schema</uri>
+                            <packageName>de.bewotec.bewotecws.schema</packageName>
+                        </namespaceURI>
+                    </namespaceURIs>
+
+                </configuration>
+            </execution>
+            <execution>
+                <id>wsdl-InsurancesService</id>
+                <goals>
+                    <goal>wsdl2code</goal>
+                </goals>
+                <phase>none</phase>
+                <configuration>
+                    <packageName>de.bewotec.insurance</packageName>
+                    <wsdlFile>http://192.150.150.228:8073/InsurancesService/InsurancesService.svc?wsdl
+                    </wsdlFile>
+                    <databindingName>adb</databindingName>
+                    <flattenFiles>true</flattenFiles>
+                    <outputDirectory>src/main/java</outputDirectory>
+                    <overWrite>true</overWrite>
+                </configuration>
+            </execution>
+            <execution>
+                <id>wsdl-ContentService</id>
+                <goals>
+                    <goal>wsdl2code</goal>
+                </goals>
+                <phase>none</phase>
+                <configuration>
+                    <packageName>de.bewotec.content</packageName>
+                    <wsdlFile>http://192.150.150.228:8098/ContentService/ContentService.svc?wsdl
+                    </wsdlFile>
+                    <databindingName>adb</databindingName>
+                    <flattenFiles>true</flattenFiles>
+                    <outputDirectory>src/main/java</outputDirectory>
+                    <overWrite>true</overWrite>
+                </configuration>
+            </execution>
+        </executions>
+    </plugin>
+
+To re-generate the stubs run the command
+`./mvnw compile`
+
+> **Please note that one of the services is placed in the wrong directory and that has been corrected manually for the time being.**
+> 
+> **An additional src directory is being added to the project. This can be corrected in the future by adding an extra plugin that corrects the directory structure**
+> 
+> **To save time this step has not been done yet.**
+
+The sub regeneration has been disabled for the time being as they don't need to be regnerate with every build. This has been done by adding the following xml tag to the pom file's execusion tags:
+
+    <phase>none</phase>
