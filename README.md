@@ -16,7 +16,7 @@ Please refer to the [official sprint boot documentation](https://duckduckgo.com)
 7. Deploy the project to minikube
 
 ### Clone the project
-1. Naviagte to the directory where you want to clone the project.
+1. Navigate to the directory where you want to clone the project.
 2. Clone the project using git
 
     `git clone git@gitlab.luxair.lu:osenouci/travel-ibe-api.git`
@@ -41,7 +41,7 @@ Never write another getter or equals method again, with one annotation your clas
 
 1. In order to configure Spring boot IDE to use Lombok then navigate to [their download page](https://projectlombok.org/download) and download the latest jar file
 2. Double-click lombok.jar, this starts the eclipse installer which will find eclipse and its spring boot variation. If it does not then you can manually locate spring boot using the `Specify location...` button
-3. Once the IDE has been located and its checkbox checked then click on Install/Update
+3. Once the IDE has been located and its checkbox checked then click on `Install/Update` button
 4. If the IDE is open then restart it
 5. Import the project into the IDE
 6. Run it as a spring boot application once maven finished building it
