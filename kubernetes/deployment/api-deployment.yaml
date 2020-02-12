@@ -15,6 +15,7 @@ spec:
       containers:
       - name: travel-ibe-api-container
         image: registry.in.luxair.lu/osenouci/tavel-ibe-api
-        imagePullPolicy: Never
         ports:
         - containerPort: 8088
+      imagePullSecrets:
+      - name: myregistrykey

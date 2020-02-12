@@ -189,21 +189,42 @@ The following DockerFile has been added to the project to make this possible
 
 Please only continue with reading section, if you already have minikube installed locally. The internet of full of tutorials showing how to install minikube locally.
 
+#### Configure kubernetes/mini kube to use the private registry
+1. SSH to the minikube/kubernetes machine
+2. Login to the private registry
+
+        docker login registry.in.luxair.lu
+3. Once authenticated successfully, a docker config file will be created/updated. On my machine it was ~/.docker/config.json
+   
+        {
+                "auths": {
+                        "registry.in.luxair.lu": {
+                                "auth": "b3Nlbm91Y2k6MXAwVjExaWI1"
+                        }
+                },
+                "HttpHeaders": {
+                        "User-Agent": "Docker-Client/19.03.5 (linux)"
+                }
+        }
+
+4. Grab the content of the file and past it into the yaml file titled api-secret.yaml, under the key .dockerconfigjson
+5. Apply the secret to kubernetes using the command
+
+        kubectl apply -f api-secret.yaml
+6. Add the secret name to the deployment/replicat file under the key imagePullSecrets.name
+
+
+#### Push a deployment to minikube
 1. Make sure that minikube is running, if not then issue the `minikube start` command.
 2. Deploy the application using the deployment file `kubectl create -f api-deployment.yaml`
 3. Deploy the service file using the service file `kubectl apply -f api-service.yaml`
-4. To obtain the url of the service execute the command `minikube service travel-ibe-service --url`
+4.  To obtain the url of the service execute the command `minikube service travel-ibe-service --url`
 5. That should return an ip address that you can use to access the API in browser Postman
 6. Optionally, you can verify the status of the deployment using the dashboad by running the command `minikube dashboard`
 
-### Minikube cannot retrieve the image from Luxair's private registry
-1. If minikube is installed on virtual box then ssh to the machine and use
-   1. `docker` as a username
-   2. `tcuser` as a password
-2. Login to Luxair's registry to make the docker aware of it
-   
-        docker login registry.in.luxair.lu
-
-3. Try to pull the image to see if the registry has been added correctly.
-   
-        docker pull registry.in.luxair.lu/osenouci/tavel-ibe-api:latest
+#### Deploy a replica set of 4 machines to minikube
+1. Make sure that minikube is running, if not then issue the `minikube start` command.
+2. Deploy the replica set using kubectl create -f api-replicaset.yaml
+3. Deploy the service file using the service file `kubectl apply -f api-replicaset-service.yaml`
+4. To obtain the url of the service execute the command `minikube service travel-ibe-service --url`
+5. That should return an ip address that you can use to access the API in browser Postman
