@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: tavel-ibe-api
-        image: registry.in.luxair.lu/osenouci/tavel-ibe-api
+        image: registry.in.luxair.lu/osenouci/tavel-ibe-api:mock
         ports:
         - containerPort: 8088
       imagePullSecrets:
