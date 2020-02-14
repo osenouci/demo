@@ -1,0 +1,1866 @@
+{
+  "offers": [
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "F",
+          "name": "logement avec petit déjeuner",
+          "type": "BB"
+        },
+        "room": {
+          "code": "DZS",
+          "name": "Chambre promo",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 800,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 400,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 400,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "F",
+          "name": "logement avec petit déjeuner",
+          "type": "BB"
+        },
+        "room": {
+          "code": "DZA",
+          "name": "Chambre Standard",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 872,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 436,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 436,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "F",
+          "name": "logement avec petit déjeuner",
+          "type": "BB"
+        },
+        "room": {
+          "code": "DZB",
+          "name": "Chambre: vue mer",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 908,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 454,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 454,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "F",
+          "name": "logement avec petit déjeuner",
+          "type": "BB"
+        },
+        "room": {
+          "code": "DZC",
+          "name": "Chambre: vue baie",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 942,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 471,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 471,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "B",
+          "name": "demi-pension +",
+          "type": "HBP"
+        },
+        "room": {
+          "code": "DZS",
+          "name": "Chambre promo",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1014,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 507,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 507,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "F",
+          "name": "logement avec petit déjeuner",
+          "type": "BB"
+        },
+        "room": {
+          "code": "SUA",
+          "name": "Suite Junior",
+          "occupancyMin": 2,
+          "occupancyMax": 3,
+          "type": "SU",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1014,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 507,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 507,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "B",
+          "name": "demi-pension +",
+          "type": "HBP"
+        },
+        "room": {
+          "code": "DZA",
+          "name": "Chambre Standard",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1086,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 543,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 543,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "B",
+          "name": "demi-pension +",
+          "type": "HBP"
+        },
+        "room": {
+          "code": "DZB",
+          "name": "Chambre: vue mer",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1122,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 561,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 561,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "B",
+          "name": "demi-pension +",
+          "type": "HBP"
+        },
+        "room": {
+          "code": "DZC",
+          "name": "Chambre: vue baie",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1156,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 578,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 578,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "C",
+          "name": "pension complète +",
+          "type": "FBP"
+        },
+        "room": {
+          "code": "DZS",
+          "name": "Chambre promo",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1204,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 602,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 602,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "B",
+          "name": "demi-pension +",
+          "type": "HBP"
+        },
+        "room": {
+          "code": "SUA",
+          "name": "Suite Junior",
+          "occupancyMin": 2,
+          "occupancyMax": 3,
+          "type": "SU",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1228,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 614,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 614,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "C",
+          "name": "pension complète +",
+          "type": "FBP"
+        },
+        "room": {
+          "code": "DZA",
+          "name": "Chambre Standard",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1276,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 638,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 638,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "C",
+          "name": "pension complète +",
+          "type": "FBP"
+        },
+        "room": {
+          "code": "DZB",
+          "name": "Chambre: vue mer",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1312,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 656,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 656,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "C",
+          "name": "pension complète +",
+          "type": "FBP"
+        },
+        "room": {
+          "code": "DZC",
+          "name": "Chambre: vue baie",
+          "occupancyMin": 2,
+          "occupancyMax": 4,
+          "type": "DR",
+          "availability": "",
+          "limitedAvailability": false
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1348,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 674,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 674,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotel": {
+        "code": "MLAPARHS",
+        "board": {
+          "code": "C",
+          "name": "pension complète +",
+          "type": "FBP"
+        },
+        "room": {
+          "code": "SUA",
+          "name": "Suite Junior",
+          "occupancyMin": 2,
+          "occupancyMax": 3,
+          "type": "SU",
+          "availability": "",
+          "limitedAvailability": true
+        }
+      },
+      "requestBooking": false,
+      "customProperty": "Custom3",
+      "city": {
+        "name": "CIRKEWWA, MALTA"
+      },
+      "country": {
+        "code": "MT",
+        "name": "MALTA"
+      },
+      "period": {
+        "start": "2020-05-02T00:00:00",
+        "end": "2020-05-09T00:00:00",
+        "duration": "7"
+      },
+      "price": {
+        "amount": 1418,
+        "currency": "EUR"
+      },
+      "priceTypes": [
+        "GeneralDiscount",
+        "FirstMinute",
+        "FlightTax"
+      ],
+      "pricePerPassenger": [
+        {
+          "amount": 709,
+          "title": "H",
+          "age": 30
+        },
+        {
+          "amount": 709,
+          "title": "H",
+          "age": 30
+        }
+      ],
+      "passengers": [
+        "H",
+        "H"
+      ],
+      "flights": [
+        {
+          "number": "LG985SA",
+          "departureAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "destinationAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "departureTime": "2020-05-02T06:05:00",
+          "arrivalTime": "2020-05-02T08:40:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-02T06:05:00",
+                "departureAirport": "LUX",
+                "destinationTime": "2020-05-02T08:40:00",
+                "flightClass": "V",
+                "destinationAirport": "MLA",
+                "flightNumber": "985",
+                "airline": "LG"
+              }
+            }
+          ]
+        },
+        {
+          "number": "LG986SA",
+          "departureAirport": {
+            "code": "MLA",
+            "name": "Malta International Airport",
+            "city": "Malta"
+          },
+          "destinationAirport": {
+            "code": "LUX",
+            "name": "Luxembourg-Findel International Airport",
+            "city": "Luxemburg"
+          },
+          "departureTime": "2020-05-09T09:30:00",
+          "arrivalTime": "2020-05-09T12:05:00",
+          "flightClass": "V",
+          "stops": "0",
+          "flightAvailability": "",
+          "limitedAvailability": false,
+          "flightSegments": [
+            {
+              "flightSegment": {
+                "departureTime": "2020-05-09T09:30:00",
+                "departureAirport": "MLA",
+                "destinationTime": "2020-05-09T12:05:00",
+                "flightClass": "V",
+                "destinationAirport": "LUX",
+                "flightNumber": "986",
+                "airline": "LG"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TotalResults": "15",
+  "SortedBy": "Price"
+}
