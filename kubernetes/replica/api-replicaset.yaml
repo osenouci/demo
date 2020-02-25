@@ -7,7 +7,7 @@ metadata:
   #   tier: travel-ibe-api-replica
 spec:
   # modify replicas according to your case
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       app: travel-ibe-api-replica
@@ -18,8 +18,6 @@ spec:
     spec:
       containers:
       - name: tavel-ibe-api
-        image: registry.in.luxair.lu/osenouci/tavel-ibe-api:mock
+        image: luxairgroup.azurecr.io/scrum/travel-ibe:api4
         ports:
-        - containerPort: 8088
-      imagePullSecrets:
-      - name: myregistrykey
+        - containerPort: 80
